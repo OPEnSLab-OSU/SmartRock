@@ -3,7 +3,7 @@
 	{\
 		'name':'Hydro',\
 		'instance':1,\
-		'interval':500\
+		'interval':10000\
 	},\
 	'components':[\
 		{\
