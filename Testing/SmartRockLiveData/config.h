@@ -1,0 +1,25 @@
+"{\
+	'general':\
+	{\
+		'name':'Device',\
+		'instance':1\
+	},\
+	'components':[\
+		{\
+			'name':'DS3231',\
+			'params':[11,true]\
+		},\
+		{\
+			'name':'Analog',\
+			'params':[8,12,true,false,true,false,false,false,4,0,6,0,0,0]\
+		},\
+		{\
+			'name':'SD',\
+			'params':[true,1000,10,'data',true]\
+		},\
+		{\
+			'name':'MS5803',\
+			'params':[119]\
+		}\
+	]\
+}"
