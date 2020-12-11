@@ -2,7 +2,7 @@
 
 For the construction of one Smart Rock you need one of each of these parts. They are laser cut from extruded acrylic sheets.
 
-Part | Material Thickness
+Part | Material Thickness 
 ------ | ------
 Sensor_Mount | 1/4"
 Sled_Base | 1/8"
