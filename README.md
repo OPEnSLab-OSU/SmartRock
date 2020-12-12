@@ -51,6 +51,57 @@ Interest in the project? Email us at: halebroc@oregonstate.edu
 * Code is robust enough to run without error for 3-6 months.
 </details>
 
+### Assembly Guide
+
+<details>
+<summary>Smart Rock V3 Assembly Guide</summary>
+
+##### Materials
+
+* Smart Rock Enclosure
+* End Cap
+* Sensors
+* Sled materials
+* 
+
+##### Procedure
+
+***Assemble End Cap***
+
+1. Prep the Turbidity and MS5803. For the Turbidity sensor trim the two mounting holes off. For the MS5803 sensor package wind up the attached cable if it is not already so it is out of the way for gluing.
+
+2. Cut the tip of the marine epoxy with scissors - *be careful as it will ooze after opening*
+
+3. mix 15 ml of marine epoxy in a 30 ml cup using a popsicle stick.
+
+4. Apply marine epoxy around the edge of the turbidity sensor.
+
+5. On the faceplate, apply super glue around the turbidity sensor's hole on the inside face where the turbidity sensor will contact the acrylic faceplate.
+
+6. Insert the turbidity sensor into the hole, the black plastic peg should point directly at the slot on the faceplate.
+
+7. Press the turbidity sensor into the hole and hold until the super glue sets. If necessary, use the popsicle stick to move or add epoxy to turbidity sensor to create a good seal on the inside.
+
+8. On the outside of the acrylic plate apply epoxy around the outside of the sensor. 
+
+9. On the top of the two pillars of the sensor apply super glue, cover the sensor with the 3D printed cover to the sensor and hold it for a minute giving the sensor a chance to stick in place.
+
+10. If needed use the popsicle stick to move or apply more epoxy to the sensor cover.
+
+11. Set somewhere safe to dry for at least 4 hours, overnight if possible.
+
+***Assemble the Sled***
+
+1. To start assembling the sled populate the Turbidity and EC Breakout Mounts with 10mm M3 screws and capture them with nuts.
+
+2. Matching the tabs and corresponding slots attach the EC Breakout Mount and the battery Mount together.
+
+3. Slip the turbidity mount on to the battery mount and onto the remaining tabs.
+
+4. Drop the assembled contraption onto the sled and mount with the two 10mm M3 screws. 
+ 
+</details>
+
 ### Test Procedures
 <details>
 <summary>Test for Leaks</summary>
@@ -76,8 +127,6 @@ Interest in the project? Email us at: halebroc@oregonstate.edu
 <summary> </summary>
 
 </details>
-
-### Assembly Guide
 
 ### Operation Guide
 
