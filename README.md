@@ -51,6 +51,16 @@ Interest in the project? Email us at: halebroc@oregonstate.edu
 * Code is robust enough to run without error for 3-6 months.
 </details>
 
+### Bill of Materials
+
+<details>
+<summaryShow Bill of Materials</summary>
+L
+**Bill of Materials**
+
+
+</details>
+
 ### Assembly Guide
 
 <details>
@@ -68,7 +78,7 @@ Interest in the project? Email us at: halebroc@oregonstate.edu
 
 ***Assemble End Cap***
 
-1. Prep the Turbidity sensor and MS5803. For the Turbidity sensor, trim the two mounting holes off. For the MS5803 sensor package, wind up the attached cable if it is not already so it is out of the way for gluing.
+1. Prep the Turbidity sensor and. For the Turbidity sensor, trim the two mounting holes off. For the Make sure all wires are are un clipped or outof te way..
 
 2. Cut the tip of the marine epoxy with scissors - *be careful as it will ooze after opening*
 
@@ -92,13 +102,17 @@ Interest in the project? Email us at: halebroc@oregonstate.edu
 
 ***Assemble the Sled***
 
+1. Find the top and bottom of the sled and align the rail with its indicator on the bottom of the sled. Apply super glue to the top of the rail and using the indicator and front ed
+
 1. To start assembling the sled, populate the Turbidity and EC Breakout Mounts with 10mm M3 screws and capture them with nuts.
 
-2. Matching the tabs and corresponding slots, attach the EC Breakout Mount and the battery Mount together.
+2. Add the PCBs onto their stand-offs and capture them with another nut.
+
+3. Matching the tabs and corresponding slots, attach the EC Breakout Mount and the battery Mount together fitting the velcro into the provided channel.
 
 3. Slip the turbidity mount onto the battery mount and onto the remaining tabs.
 
-4. Drop the assembled contraption onto the sled and mount with the two 10mm M3 screws. 
+4. Drop the assembly onto the sled and mount with the two 8mm M3 screws captured with nuts on the underside of the Smart Rock.
  
 </details>
 
