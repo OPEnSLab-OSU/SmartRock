@@ -4,7 +4,9 @@ Project Leads: **Colin Hale-Brown**, **Martin Escoto**, and **Alicia Veach**
 Interest in the project? Email us at: halebroc@oregonstate.edu
 
 - [x] Latest hardware version: 3
-- [x] Latest software version: 2.4
+- [x] Latest software version: 2.5
+
+The Smart Rock is a submersible sensor suite that monitors water depth, temperature, turbidity, and salinity (EC) of a small stream over time and designed to be built by anyone with or without extensive experience in electronics.
 
 <!--
 
@@ -119,6 +121,18 @@ L
 ### Test Procedures
 <details>
 <summary>Test for Leaks</summary>
+
+1. Start by removing the sled if it is installed in the smart rock and preparing a tub or bucket of water.
+
+2. Add the acrylic faceplate and seal union fitting with an empty smart rock. 
+
+3. Completely submerge the Smart Rock in water and hold it there for 30 seconds.
+
+4. Check for leaks and water pooling inside the Smart Rock. If there are none resubmerge for 3 to 5 minutes.
+
+5. Check for water inside the Smart Rock, if none can be seen then unscrew the union fitting and check that the o-ring is compressed and making a complete seal, the faceplate should stick to the capsule if the seal is sticking.
+
+6. If there is no water inside the smart rock it is not leaking.
 
 </details>
 

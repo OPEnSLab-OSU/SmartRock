@@ -52,8 +52,29 @@ Hypnos | Module for time, sleep, and data storage functionalities of the Smart R
 
 </details>
 
-### Hypnos Prep
+### Hypnos Assembly
 
-The only preperation needed for the hypnos board is to solder on the female and male headers for the top and bottom of the board. 
+<details>
+<summary>Show Hypnos Assembly Guide</summary>
+
+**Hypnos Assembly Guide**
+
+*If your hypnos board already has headers attached skip to step 5.*
+
+1. The female headers on the hypnos board are going to accept the feather while the male headers are for the control side. Start by identifying which pair goes to which.
+
+2. Start by soldering on the inside female headermaking sure the header is straight and flush with the PCB.
+
+3. Then flip over the board with one headers soldered and solder the male headers. 
+
+3. Flip the board over and complete the last female header.
+
+4. Check that all soldering points are making good, complete contact and no two pins are shorting.
+
+5. Insert the button cell battery, positive side facing out as indicated.
+
+6. Insert the micro SD card, it should click and lock into place.
+
+</details>
 
 -->
