@@ -109,10 +109,10 @@ void loop()
 
     //modifiable 
     //set desired seconds
-    secs = 1199;
+    secs = 59;
     
     //set desired minutes
-    mins = 0;
+    mins = 19;
     
     //set desired hours
     hours = 0;

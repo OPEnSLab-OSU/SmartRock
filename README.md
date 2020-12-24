@@ -56,9 +56,13 @@ The Smart Rock is a submersible sensor suite that monitors water depth, temperat
 ### Bill of Materials
 
 <details>
-<summaryShow Bill of Materials</summary>
-L
+<summary>Show Bill of Materials</summary>
+
 **Bill of Materials**
+
+Item Description | Notes | In House Part | Quantity per 1 SR | Part Number | Dist. Website 
+------ | ------ | ------ | ------- | ------ | ------ 
+PVC Pipe (Quantity in inches) | 2.5" pipe | [ ] | 4.125 | 5AFJ8 | [Grainger](https://www.grainger.com/product/GRAINGER-APPROVED-Pipe-5AFJ8?)
 
 
 </details>
