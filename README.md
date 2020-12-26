@@ -60,10 +60,19 @@ The Smart Rock is a submersible sensor suite that monitors water depth, temperat
 
 **Bill of Materials**
 
-Item Description | Notes | In House Part | Quantity per 1 SR | Part Number | Dist. Website 
------- | ------ | ------ | ------- | ------ | ------ 
-PVC Pipe (Quantity in inches) | 2.5" pipe | [ ] | 4.125 | 5AFJ8 | [Grainger](https://www.grainger.com/product/GRAINGER-APPROVED-Pipe-5AFJ8?)
+Kits | Type
+---- | ----
+A | Fully Assembled
+B | To be Assembled
+C | In house parts only
 
+
+Item Description | Notes | Quantity per 1 SR | Part Number | Dist. Website | In kits 
+------ | ------ | ------ | ------- | ------ | ------ 
+PVC Pipe (Quantity in inches) | 2.5" pipe | 4.125 | 5AFJ8 | [Grainger](https://www.grainger.com/product/GRAINGER-APPROVED-Pipe-5AFJ8?) | A, B
+PVC Union Fitting | Only Part of the fitting is used, cemented onto pipe | 1 | 457-025 | [SupplyHouse](https://www.supplyhouse.com/Spears-457-025-2-1-2-PVC-Sch-40-Socket-Union-w-Buna-N-O-ring) | A, B
+PVC Cap Fitting | Cemented onto pipe | 1 | 447-025 | [SupplyHouse](https://www.supplyhouse.com/Spears-447-025-2-1-2-PVC-Schedule-40-Cap) | A, B
+Acrylic_Faceplate | Laser cut from extruded acrylic. | 1 | #### | [McMaster Carr](https://www.mcmaster.com/8560K357/) | A, B, C
 
 </details>
 
@@ -75,10 +84,27 @@ PVC Pipe (Quantity in inches) | 2.5" pipe | [ ] | 4.125 | 5AFJ8 | [Grainger](htt
 ##### Materials
 
 * Smart Rock Enclosure
-* End Cap
-* Sensors
-* Sled materials
-* 
+* Turbidity Sensor kit
+* Acrylic Faceplate
+* Hypnos
+* Feather
+* EC Breakout Board
+* Sled_Base
+* Turbidity_Mount
+* Electronics_Mount
+* Turbidity_Cover
+* Battery_Mount
+* Rails (Inside and Out)
+* M3 screw 8mm (2x)
+* M3 screw 10mm (4x)
+* M3 nut (10x)
+* SD Card (16gb)
+* CR1220 Button Cell
+
+
+Aditional Materials
+* Super Glue
+* Marine Epoxy
 
 ##### Procedure
 
