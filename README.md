@@ -10,7 +10,7 @@ The Smart Rock is a submersible sensor suite that monitors water depth, temperat
 
 <!--
 
-### Smart Rock Validation
+## Smart Rock Validation
  
 <details>
 <summary>Show Hardware Requirements</summary>
@@ -53,7 +53,7 @@ The Smart Rock is a submersible sensor suite that monitors water depth, temperat
 * Code is robust enough to run without error for 3-6 months.
 </details>
 
-### Bill of Materials
+## Bill of Materials
 
 <details>
 <summary>Show Bill of Materials</summary>
@@ -69,19 +69,29 @@ C | In house parts only
 
 Item Description | Notes | Quantity per 1 SR | Part Number | Dist. Website | In kits 
 ------ | ------ | ------ | ------- | ------ | ------ 
-PVC Pipe (Quantity in inches) | 2.5" pipe | 4.125 | 5AFJ8 | [Grainger](https://www.grainger.com/product/GRAINGER-APPROVED-Pipe-5AFJ8?) | A, B
-PVC Union Fitting | Only Part of the fitting is used, cemented onto pipe | 1 | 457-025 | [SupplyHouse](https://www.supplyhouse.com/Spears-457-025-2-1-2-PVC-Sch-40-Socket-Union-w-Buna-N-O-ring) | A, B
-PVC Cap Fitting | Cemented onto pipe | 1 | 447-025 | [SupplyHouse](https://www.supplyhouse.com/Spears-447-025-2-1-2-PVC-Schedule-40-Cap) | A, B
-Acrylic_Faceplate | Laser cut from extruded acrylic. | 1 | #### | [McMaster Carr](https://www.mcmaster.com/8560K357/) | A, B, C
-
+PVC Pipe (Quantity in inches) | 2.5" pipe | 4.125 | 5AFJ8 | [Grainger](https://www.grainger.com/product/GRAINGER-APPROVED-Pipe-5AFJ8?) | A,B
+PVC Union Fitting | Only Part of the fitting is used, cemented onto pipe | 1 | 457-025 | [SupplyHouse](https://www.supplyhouse.com/Spears-457-025-2-1-2-PVC-Sch-40-Socket-Union-w-Buna-N-O-ring) | A,B
+PVC Cap Fitting | Cemented onto pipe | 1 | 447-025 | [SupplyHouse](https://www.supplyhouse.com/Spears-447-025-2-1-2-PVC-Schedule-40-Cap) | A,B
+Acrylic_Faceplate | Laser cut from 1/4" extruded acrylic. | 1 | #### | [McMasterCarr](https://www.mcmaster.com/8560K357/) | A,B,C
+Sled_Base | Laser cut from 1/8" extruded acrylic. | 1 | #### | [McMasterCarr](https://www.mcmaster.com/8589K43/) | A,B,C
+Electronics_Mount | Laser cut from 1/8" extruded acrylic. | 1 | #### | [McMasterCarr](https://www.mcmaster.com/8589K43/) | A,B,C
+Turbidity_Mount | Laser cut from 1/8" extruded acrylic. | 1 | #### | [McMasterCarr](https://www.mcmaster.com/8589K43/) | A,B,C
+3" Velcro Cable Tie |  | 1 | 4330221319 | [Amazon](https://www.amazon.com/dp/B00QMMKY8I/) | A,B
+Battery_Mount | 3D Printed | 1 | #### |  | A,B,C
+Turbidity_Cover | 3D Printed | 1 | #### |  | A,B,C
+Rail_Outside | 3D Printed | 1 | #### |  | A,B,C
+Rail_Inside | 3D Printed | 1 | #### |  | A,B,C
+8mm M3 Screw |  | 2 | 91292A112 | [McMasterCarr](https://www.mcmaster.com/91292a112) | A,B
+10mm M3 Screw |  | 4 | 91292A113 | [McMasterCarr](https://www.mcmaster.com/91292A113/) | A,B
+M3 Nut |  | 10 | 91828A211 | [McmasterCarr](https://www.mcmaster.com/91828A211/) | A,B
 </details>
 
-### Assembly Guide
+## Assembly Guide
 
 <details>
-<summary>Smart Rock V3 Assembly Guide</summary>
+<summary>Show Materials</summary>
 
-##### Materials
+#### Materials
 
 * Smart Rock Enclosure
 * Turbidity Sensor kit
@@ -100,13 +110,17 @@ Acrylic_Faceplate | Laser cut from extruded acrylic. | 1 | #### | [McMaster Carr
 * M3 nut (10x)
 * SD Card (16gb)
 * CR1220 Button Cell
+* 3" velcro strap
 
 
 Aditional Materials
 * Super Glue
 * Marine Epoxy
 
-##### Procedure
+</details>
+
+<details>
+<summary> End Cap Procedure </summary>
 
 ***Assemble End Cap***
 
@@ -148,7 +162,7 @@ Aditional Materials
  
 </details>
 
-### Test Procedures
+## Test Procedures
 <details>
 <summary>Test for Leaks</summary>
 
@@ -186,6 +200,6 @@ Aditional Materials
 
 </details>
 
-### Operation Guide
+## Operation Guide
 
 -->
