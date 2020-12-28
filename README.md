@@ -52,6 +52,8 @@ The Smart Rock is a submersible sensor suite that monitors water depth, temperat
 <details>
 <summary>Bill of Materials</summary>
 
+This bill of materials in the complete bill of materials and what you will recieve in each kit. For info about the materials and assembly of the custom PCBs please visit the PCB folder and read the corresponding README.
+
 Kits | Type
 ---- | ----
 A | Fully Assembled
@@ -115,38 +117,23 @@ Desicant Packets |
 ## Assembly Guide
 
 <details>
-<summary>Materials</summary>
+<summary> End Cap Assembly Procedure </summary>
 
-* Smart Rock Enclosure
-* Turbidity Sensor kit
+<details>
+<summary>Meterials</summary>
+
 * Acrylic Faceplate
-* Hypnos
-* Feather
-* EC Breakout Board
-* Sled_Base
-* Turbidity_Mount
-* Electronics_Mount
-* Turbidity_Cover
-* Battery_Mount
-* Rails (Inside and Out)
-* M3 screw 8mm (2x)
-* M3 screw 10mm (4x)
-* M3 nut (10x)
-* SD Card (16gb)
-* CR1220 Button Cell
-* 3" velcro strap
-
+* Turbidity Sensor
 
 Aditional Materials
-* Super Glue
+* 30mL cup
+* popsicle stick
 * Marine Epoxy
+* Super glue
 
 </details>
 
-<details>
-<summary> End Cap Assembly Procedure </summary>
-
-1. Prep the Turbidity sensor and. For the Turbidity sensor, trim the two mounting holes off. For the Make sure all wires are are un clipped or outof te way..
+1. Prep the Turbidity sensor by triming the two mounting holes off. For the Make sure all wires are are un clipped or outof te way..
 
 2. Cut the tip of the marine epoxy with scissors - *be careful as it will ooze after opening*
 
