@@ -8,14 +8,10 @@ Interest in the project? Email us at: halebroc@oregonstate.edu
 
 The Smart Rock is a submersible sensor suite that monitors water depth, temperature, turbidity, and salinity (EC) of a small stream over time and designed to be built by anyone with or without extensive experience in electronics.
 
-<!--
-
 ## Smart Rock Validation
  
 <details>
-<summary>Show Hardware Requirements</summary>
-
-**Hardware Requirements**
+<summary>Hardware Requirements</summary>
 
 * Acrylic cap forms watertight seal with the union fitting.
 * No lose components inside the Smart Rock.
@@ -27,9 +23,7 @@ The Smart Rock is a submersible sensor suite that monitors water depth, temperat
 </details>
 
 <details>
-<summary>Show Electronics Requirements</summary>
-
-**Electronics Requirements**
+<summary>Electronics Requirements</summary>
 
 * EC Sensor is reporting consistent data.
 * Turbidity sensor is reporting consistent data.
@@ -41,9 +35,7 @@ The Smart Rock is a submersible sensor suite that monitors water depth, temperat
 </details>
 
 <details>
-<summary>Show Software Requirements</summary>
-
-**Software Requirements**
+<summary>Software Requirements</summary>
 
 * Smart Rock can sleep for prolonged battery life.
 * Set RTC through serial. 
@@ -53,12 +45,12 @@ The Smart Rock is a submersible sensor suite that monitors water depth, temperat
 * Code is robust enough to run without error for 3-6 months.
 </details>
 
+<!--
+
 ## Bill of Materials
 
 <details>
-<summary>Show Bill of Materials</summary>
-
-**Bill of Materials**
+<summary>Bill of Materials</summary>
 
 Kits | Type
 ---- | ----
@@ -123,9 +115,7 @@ Desicant Packets |
 ## Assembly Guide
 
 <details>
-<summary>Show Materials</summary>
-
-#### Materials
+<summary>Materials</summary>
 
 * Smart Rock Enclosure
 * Turbidity Sensor kit
@@ -154,9 +144,7 @@ Aditional Materials
 </details>
 
 <details>
-<summary> End Cap Procedure </summary>
-
-***Assemble End Cap***
+<summary> End Cap Assembly Procedure </summary>
 
 1. Prep the Turbidity sensor and. For the Turbidity sensor, trim the two mounting holes off. For the Make sure all wires are are un clipped or outof te way..
 
@@ -180,7 +168,10 @@ Aditional Materials
 
 11. Set somewhere safe to dry for at least 4 hours, overnight if possible.
 
-***Assemble the Sled***
+</details>
+
+<details>
+<summary>Sled Assembly Procedure</summary>
 
 1. Find the top and bottom of the sled and align the rail with its indicator on the bottom of the sled. Apply super glue to the top of the rail and using the indicator and front ed
 
@@ -193,26 +184,33 @@ Aditional Materials
 3. Slip the turbidity mount onto the battery mount and onto the remaining tabs.
 
 4. Drop the assembly onto the sled and mount with the two 8mm M3 screws captured with nuts on the underside of the Smart Rock.
- 
+
 </details>
 
+-->
+
 ## Test Procedures
+
 <details>
 <summary>Test for Leaks</summary>
 
 1. Start by removing the sled if it is installed in the smart rock and preparing a tub or bucket of water.
 
+2. Add silicone greese to the o-ring to help create a good seal.
+
 2. Add the acrylic faceplate and seal union fitting with an empty smart rock. 
 
 3. Completely submerge the Smart Rock in water and hold it there for 30 seconds.
 
-4. Check for leaks and water pooling inside the Smart Rock. If there are none resubmerge for 3 to 5 minutes.
+4. Check for leaks by looking for, water pooling inside the Smart Rock. If there are none resubmerge for 3 to 5 minutes.
 
-5. Check for water inside the Smart Rock, if none can be seen then unscrew the union fitting and check that the o-ring is compressed and making a complete seal, the faceplate should stick to the capsule if the seal is sticking.
+5. Check for water inside the Smart Rock, if none can be seen then check the o-ring is compressed. 
 
-6. If there is no water inside the smart rock it is not leaking.
+6. If all looks in order unscrew the union fitting and fell for water inside. If there is no water inside the smart rock it is not leaking.
 
 </details>
+
+<!--
 
 <details>
 <summary>Test EC Breakout Board</summary>

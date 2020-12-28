@@ -13,8 +13,6 @@ Hypnos | Module for time, sleep, and data storage functionalities of the Smart R
 <details>
 <summary>OsmoPod Bill of Materials</summary>
 
-**OsmoPod Bill of Materials**
-
 Item Description | Notes | Quantity per 1 SR | Part Number | Dist. Website 
 ------ | ------ | ------ | ------- | ------
 OsmoPod_Shield | Laser cut from 1/16" extruded acrylic sheet. | 1 | #### | [McMasterCarr](https://www.mcmaster.com/8589K11/)
@@ -31,8 +29,6 @@ Long Male Headers | EC probes for sensing. | 1 | 400 | [Adafruit](https://www.ad
 
 <details>
 <summary>OsmoPod Assembly Guide</summary>
-
-**OsmoPod Assembly Guide**
 
 1. Start by applying solder paste to the OsmoPod board for the MS5803 sensor. Clean up any etra solder or move it to a trace so a short is not made when the board is baked.
 
@@ -74,8 +70,6 @@ Long Male Headers | EC probes for sensing. | 1 | 400 | [Adafruit](https://www.ad
 <details>
 <summary>EC Breakout Assembly Guide</summary>
 
-**EC Breakout Assembly Guide**
-
 
 </details>
 
@@ -83,8 +77,6 @@ Long Male Headers | EC probes for sensing. | 1 | 400 | [Adafruit](https://www.ad
 
 <details>
 <summary>Hypnos Bill of Materials</summary>
-
-**Hypnos Bill of Materials**
 
 Item Description | Notes | Quantity per 1 SR | Part Number | Dist. Website 
 ------ | ------ | ------ | ------- | ------
@@ -95,9 +87,7 @@ Short Female Header | For Hypnos and EC Breakout Boards | 2 | 2940 | [Adafruit](
 </details>
 
 <details>
-<summary>Show Hypnos Assembly Guide</summary>
-
-**Hypnos Assembly Guide**
+<summary>Hypnos Assembly Guide</summary>
 
 *If your hypnos board already has short headers attached you are ready to go*
 
