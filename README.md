@@ -66,11 +66,12 @@ A | Fully Assembled
 B | To be Assembled
 C | In house parts only
 
+**Mechanical**
 
 Item Description | Notes | Quantity per 1 SR | Part Number | Dist. Website | In kits 
 ------ | ------ | ------ | ------- | ------ | ------ 
 PVC Pipe (Quantity in inches) | 2.5" pipe | 4.125 | 5AFJ8 | [Grainger](https://www.grainger.com/product/GRAINGER-APPROVED-Pipe-5AFJ8?) | A,B
-PVC Union Fitting | Only Part of the fitting is used, cemented onto pipe | 1 | 457-025 | [SupplyHouse](https://www.supplyhouse.com/Spears-457-025-2-1-2-PVC-Sch-40-Socket-Union-w-Buna-N-O-ring) | A,B
+PVC Union Fitting | Only part of the fitting is used, cemented onto pipe | 1 | 457-025 | [SupplyHouse](https://www.supplyhouse.com/Spears-457-025-2-1-2-PVC-Sch-40-Socket-Union-w-Buna-N-O-ring) | A,B
 PVC Cap Fitting | Cemented onto pipe | 1 | 447-025 | [SupplyHouse](https://www.supplyhouse.com/Spears-447-025-2-1-2-PVC-Schedule-40-Cap) | A,B
 Acrylic_Faceplate | Laser cut from 1/4" extruded acrylic. | 1 | #### | [McMasterCarr](https://www.mcmaster.com/8560K357/) | A,B,C
 Sled_Base | Laser cut from 1/8" extruded acrylic. | 1 | #### | [McMasterCarr](https://www.mcmaster.com/8589K43/) | A,B,C
@@ -84,6 +85,39 @@ Rail_Inside | 3D Printed | 1 | #### |  | A,B,C
 8mm M3 Screw |  | 2 | 91292A112 | [McMasterCarr](https://www.mcmaster.com/91292a112) | A,B
 10mm M3 Screw |  | 4 | 91292A113 | [McMasterCarr](https://www.mcmaster.com/91292A113/) | A,B
 M3 Nut |  | 10 | 91828A211 | [McmasterCarr](https://www.mcmaster.com/91828A211/) | A,B
+
+**Electrical**
+
+Item Description | Notes | Quantity per 1 SR | Part Number | Dist. Website | In kits 
+------ | ------ | ------ | ------- | ------ | ------ 
+Feather M0 Basic Proto | Microcontroller | 1 | 2772 | [Adafruit](https://www.adafruit.com/product/2772) | A,B
+Hypnos Board | Data logging, system power, real time clock. | 1 | #### |  | A,B,C
+MicroSD Card with adapter | For storing data in Hypnos. | 1 | #### | [Amazon](https://www.amazon.com/SanDisk-Mobile-MicroSDHC-SDSDQM-B35A-Adapter/dp/B004ZIENBA/) | A,B
+CR1220 Coin Cell | For keeping time when battery is removed. | 1 | 54ZU79 | [Grainger](https://www.grainger.com/product/GRAINGER-APPROVED-1220-54ZU79) | A,B
+Battery Charger | Charge lipo battery cell | 1 | 1304 | [Adafruit](https://www.adafruit.com/product/1304) | A,B
+Lithium Ion Battery | 3.7V 2200mAh | 1 | 1781 | [Adafruit](https://www.adafruit.com/product/1304) | A,B
+3-pin JST Cable | 100mm long | 1 | 4336 | [Adafruit](https://www.adafruit.com/product/4336) | A,B
+Short Male Header | For Hypnos and Feather Boards | 2 | 3002 | [Adafruit](https://www.adafruit.com/product/3002) | A,B
+Short Female Header | For Hypnos and EC Breakout Boards | 2 | 2940 | [Adafruit](https://www.adafruit.com/product/2940) | A,B
+OsmoPod | MS5803 and EC | 1 | #### |  | A,B,C
+EC Breakout Board | Main Board | 1 | #### |  | A,B,C
+
+**Assembly, Calibration, and Deployment**
+
+Item Description | Notes | Quantity per 1 SR | Part Number | Dist. Website | In kits 
+------ | ------ | ------ | ------- | ------ | ------ 
+Lead-free Solder | 
+Epoxy | 
+Super Glue |
+Popsicle Stick |
+30 mL Cups |
+3 mL Pipette
+DI Rinse Pouch |
+10 μS/cm calibration pouch |
+447 μS/cm calibration pouch |
+1213 μS/cm calibration pouch |
+Desicant Packets | 
+
 </details>
 
 ## Assembly Guide
