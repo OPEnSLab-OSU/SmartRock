@@ -10,8 +10,7 @@ The Smart Rock is a submersible sensor suite that monitors water depth, temperat
 
 ## Smart Rock Validation
  
-<details>
-<summary>Hardware Requirements</summary>
+<details><summary>Hardware Requirements</summary>
 
 * Acrylic cap forms watertight seal with the union fitting.
 * No lose components inside the Smart Rock.
@@ -22,8 +21,7 @@ The Smart Rock is a submersible sensor suite that monitors water depth, temperat
 * Have reliable mounting points for fixing the Smart Rock during testing and deployment.
 </details>
 
-<details>
-<summary>Electronics Requirements</summary>
+<details><summary>Electronics Requirements</summary>
 
 * EC Sensor is reporting consistent data.
 * Turbidity sensor is reporting consistent data.
@@ -34,8 +32,7 @@ The Smart Rock is a submersible sensor suite that monitors water depth, temperat
 * All wires have unique connectors to make miss-wiring impossible.
 </details>
 
-<details>
-<summary>Software Requirements</summary>
+<details><summary>Software Requirements</summary>
 
 * Smart Rock can sleep for prolonged battery life.
 * Set RTC through serial. 
@@ -49,8 +46,7 @@ The Smart Rock is a submersible sensor suite that monitors water depth, temperat
 
 ## Bill of Materials
 
-<details>
-<summary>Bill of Materials</summary>
+<details><summary>Bill of Materials</summary>
 
 This bill of materials in the complete bill of materials and what you will recieve in each kit. For info about the materials and assembly of the custom PCBs please visit the PCB folder and read the corresponding README.
 
@@ -101,7 +97,7 @@ EC Breakout Board | Main Board | 1 | #### |  | A,B,C
 Item Description | Notes | Quantity per 1 SR | Part Number | Dist. Website | In kits 
 ------ | ------ | ------ | ------- | ------ | ------ 
 Lead-free Solder | 
-Epoxy | 
+Marine Epoxy | 
 Super Glue |
 Popsicle Stick |
 30 mL Cups |
@@ -111,33 +107,93 @@ DI Rinse Pouch |
 447 μS/cm calibration pouch |
 1213 μS/cm calibration pouch |
 Desicant Packets | 
-
 </details>
 
 ## Assembly Guide
 
-<details>
-<summary> End Cap Assembly Procedure </summary>
+<details><summary>Enclosure Assembly</summary>
 
-<details>
-<summary>Meterials</summary>
+**Materials**
+
+* PVC Enclosure *(Assuming it is fully assembled and cemented in place)*
+* Rail_Outside
+
+Additional Materials
+
+* Super Glue
+
+**Enclosure Assembly Procedure**
+
+1. Remove the cap on the PVC enclosure
+
+2. Apply super glue to the curved bottom of the Rail_Outside *(be careful not to apply it to the retaining clip)*
+
+3. Align the front edge of the Rail_Outside with the front edge of the pipe and apply pressure until the super glue has set. *(Try and make it as straight as possible to make sliding the electronics as easy as possible.)*
+</details>
+<details><summary>Sled Assembly</summary>
+
+**Materials**
+
+* Rail_Inside
+* Sled_Base
+* Electronics_Mount
+* Turbidity_Mount
+* Battery_Mount
+* 8mm M3 Screws (2x)
+* 10mm M3 Screws (4x)
+* M3 Nuts (10x)
+* Turbidity Breakout Board
+* EC Breakout Board
+* 3-pin JST Cable *(Male to Male)*
+
+Additional Materials
+
+* Super Glue
+
+**Sled Assembly Procedure**
+
+1. Find the top and bottom of the sled *(Large cutout on the right)* and align the rail with its indicator on the bottom of the sled. 
+
+2. Apply super glue to the top of the rail and using the indicator and bottom face apply pressure and hold the rail aligned until the glue is set.
+
+1. To start assembling the sled, populate the Turbidity and EC Breakout Mounts with 10mm M3 screws and capture them with nuts.
+
+2. Add the turbidity breakout board to the Turbidity_Mount and the EC breakout board to the Electronics_Mount on their stand-offs and capture them with another nut.
+
+3. Matching the tabs and corresponding slots, attach the Electronics_Mount and the Battery_Mount together fitting the velcro into the provided channel.
+
+3. Slip the Turbidity_Mount onto the Battery_Mount and slide back to connect onto the remaining tabs on the Electronics_Mount.
+
+4. Drop the assembly onto the sled in the corresponding tabs and mount with the two 8mm M3 screws captured with nuts on the underside of the Sled_Base.
+
+5. Plug-in the 3-pin JST cable to the EC Breakout Board and twist the cable to wind it once then plug the other end into the Turbidity Breakout Board. 
+</details>
+
+<details><summary>Component Assembly</summary>
+
+<details><summary>End Cap Assembly</summary>
+
+**Materials**
 
 * Acrylic Faceplate
 * Turbidity Sensor
 
-Aditional Materials
+Additional Materials
+
 * 30mL cup
 * popsicle stick
 * Marine Epoxy
 * Super glue
+* Scissors
+* Paper Towels
 
-</details>
+**End Cap Assembly Procedure**
 
-1. Prep the Turbidity sensor by triming the two mounting holes off. For the Make sure all wires are are un clipped or outof te way..
+1. Prep the Turbidity sensor by using the scissors to trim the two mounting holes off.
 
-2. Cut the tip of the marine epoxy with scissors - *be careful as it will ooze after opening*
+2. Cut the tip of the marine epoxy with the scissors - *be careful as it will ooze after opening*
 
-3. Mix 15 ml of marine epoxy in a 30 ml cup using a popsicle stick.
+3. Squeeze out 15 ml of marine epoxy into the 30 ml cup and mix thoroughly using a popsicle stick.
 
 4. Apply marine epoxy around the edge of the turbidity sensor.
 
@@ -145,41 +201,21 @@ Aditional Materials
 
 6. Insert the turbidity sensor into the hole. The black plastic peg should point directly at the slot on the faceplate.
 
-7. Press the turbidity sensor into the hole and hold until the super glue sets. If necessary, use the popsicle stick to move or add epoxy to turbidity sensor to create a good seal on the inside.
+7. Press the turbidity sensor into the hole, apply super glue to the end of each arm on the sensor and apply the sensor cover. Hold until the super glue sets. 
 
-8. On the outside of the acrylic plate, apply epoxy around the outside of the sensor. 
+8. Use the popsicle stick to move or add epoxy to turbidity sensor to create a good seal on the inside of the faceplate.
 
-9. On the top of the two pillars of the sensor apply super glue, cover the sensor with the 3D printed cover to the sensor and hold it for a minute giving the sensor a chance to stick in place.
+8. On the outside of the acrylic plate, apply epoxy to the lip around the turbidity sensor cover. 
 
 10. If needed, use the popsicle stick to move or apply more epoxy to the sensor cover.
 
 11. Set somewhere safe to dry for at least 4 hours, overnight if possible.
-
 </details>
-
-<details>
-<summary>Sled Assembly Procedure</summary>
-
-1. Find the top and bottom of the sled and align the rail with its indicator on the bottom of the sled. Apply super glue to the top of the rail and using the indicator and front ed
-
-1. To start assembling the sled, populate the Turbidity and EC Breakout Mounts with 10mm M3 screws and capture them with nuts.
-
-2. Add the PCBs onto their stand-offs and capture them with another nut.
-
-3. Matching the tabs and corresponding slots, attach the EC Breakout Mount and the battery Mount together fitting the velcro into the provided channel.
-
-3. Slip the turbidity mount onto the battery mount and onto the remaining tabs.
-
-4. Drop the assembly onto the sled and mount with the two 8mm M3 screws captured with nuts on the underside of the Smart Rock.
-
 </details>
-
--->
 
 ## Test Procedures
 
-<details>
-<summary>Test for Leaks</summary>
+<details><summary>Test for Leaks</summary>
 
 1. Start by removing the sled if it is installed in the smart rock and preparing a tub or bucket of water.
 
@@ -194,28 +230,22 @@ Aditional Materials
 5. Check for water inside the Smart Rock, if none can be seen then check the o-ring is compressed. 
 
 6. If all looks in order unscrew the union fitting and fell for water inside. If there is no water inside the smart rock it is not leaking.
-
 </details>
 
-<!--
+<details><summary>Test EC Breakout Board</summary>
 
-<details>
-<summary>Test EC Breakout Board</summary>
 
 </details>
+<details><summary>Test and Calibrate the Turbidity Sensor</summary>
 
-<details>
-<summary>Test and Calibrate the Turbidity Sensor</summary>
-
-</details>
-
-<details>
-<summary>Test and Calibrate the EC and MS5803 Sensors</summary>
 
 </details>
+<details><summary>Test and Calibrate the EC and MS5803 Sensors</summary>
 
-<details>
-<summary> </summary>
+
+</details>
+<details><summary> </summary>
+
 
 </details>
 
