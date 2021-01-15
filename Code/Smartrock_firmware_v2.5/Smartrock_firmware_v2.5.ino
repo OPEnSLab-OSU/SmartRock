@@ -17,6 +17,8 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 #include <Loom.h>
+#include <ArduinoJson.h>
+#include <SdFat.h>
 
 // Include configuration
 const char* json_config = 
@@ -33,7 +35,7 @@ LoomFactory<
 > ModuleFactory{};
 
 LoomManager Loom{ &ModuleFactory };
-
+DynamicJsonDocument doc(1024);
 
 const int switchPin = 9;
 int switchPos = 0;
@@ -66,6 +68,35 @@ void setup()
 	Loom.parse_config(json_config);
 	Loom.print_config();
 
+  SdFat sd;
+  digitalWrite(8, HIGH);
+  bool sd_found = sd.begin(SD_CS, SD_SCK_MHZ(50));
+  if (sd_found){
+    LPrintln("Found SD");
+  } else {
+    LPrintln("SD Not Found");
+  }
+  
+  File file = sd.open("customConfig.txt");
+  if (file){
+    LPrintln("File is good");
+  }
+  DeserializationError error = deserializeJson(doc, file);
+  
+  if (error) { // Make sure json was valid
+    LPrintln("deserializeJson() failed: ", error.c_str());
+  }
+  
+  serializeJsonPretty(doc, Serial);
+  JsonObject json = doc.as<JsonObject>();
+
+  //This will set the time values.
+  int secs = json["seconds"];
+  int mins = json["minutes"];
+  int hours = json["hours"];
+  int days = json["days"];
+
+  
 	// Register an interrupt on the RTC alarm pin
 	Loom.InterruptManager().register_ISR(12, wakeISR_RTC, LOW, ISR_Type::IMMEDIATE);
 
@@ -100,6 +131,7 @@ void loop()
 
   //sets all values to 0 upon start of loop
   //do not modify these
+    
   int secs = 0;
   int mins = 0;
   int hours = 0;
