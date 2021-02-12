@@ -4,7 +4,7 @@ For best results use the following Arduino board versions:
 
 Board Package | Version
 ------ | ------
-Arduino SAMD | 1.8.10
+Arduino SAMD | 1.8.13
 Adafruit SAMD | 1.5.7
 Loom | 2.5
 
