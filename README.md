@@ -3,6 +3,8 @@ Project Leads: **Colin Hale-Brown**, **Martin Escoto**, and **Alicia Veach**
 
 Interest in the project? Email us at: halebroc@oregonstate.edu
 
+We are taking pre-orders for the V3 Smart Rock at the form [HERE](https://forms.gle/heTsUhmxyKFWzNU9A).
+
 - [x] Latest hardware version: 3
 - [x] Latest software version: 2.5.1
 
