@@ -1,5 +1,5 @@
 # Smart Rock | [Updates](https://github.com/OPEnSLab-OSU/OPEnS-Lab-Home/wiki/smart-rock-updates) | [Wiki](https://github.com/OPEnSLab-OSU/SmartRock/wiki)
-Project Leads: **Colin Hale-Brown**, **Martin Escoto**, and **Alicia Veach**
+Project Leads: **Colin Hale-Brown** and **Martin Escoto**
 
 Interest in the project? Email us at: halebroc@oregonstate.edu
 
