@@ -9,3 +9,5 @@ Interest in the project? Email us at: halebroc@oregonstate.edu
 - [x] Latest software version: 2.5.1
 
 The Smart Rock is a submersible sensor suite that monitors water depth, temperature, turbidity, and salinity (EC) of a small stream over time and designed to be built by anyone with or without extensive experience in electronics.
+
+More information about assembly, testing, and operation can be found at the [wiki](https://github.com/OPEnSLab-OSU/SmartRock/wiki).
