@@ -38,7 +38,7 @@ LoomFactory<
 LoomManager Loom{ &ModuleFactory };
 DynamicJsonDocument doc(1024);
 
-const int switchPin = 9;
+const int switchPin = 19;
 int switchPos = 0;
 
 int secs = 0;
