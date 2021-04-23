@@ -140,7 +140,7 @@ void setup()
   Serial.flush();
 }
 
-byte bite = 127;
+byte res = 10; // EC Resolution anything larger than 0
 
 void loop() 
 {
@@ -165,7 +165,9 @@ void loop()
 
 
   //send data to address of I2C
-  send_data(0x2E, bite);
+  send_data(0x2E, res); // set resistance in EC circuit
+
+  //aim to 10000 for max EC value for solution then calibrate.
     
   Loom.measure();
   Loom.package();
