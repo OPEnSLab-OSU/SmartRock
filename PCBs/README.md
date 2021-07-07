@@ -7,3 +7,5 @@ Board | Description
 EC Breakout	| Module containing EC circuitry and breakout plugs for the other sensors.
 OsmoPod | Module containing EC probes and MS5803 pressure/ temperature sensor.
 Hypnos | Module for time, sleep, and data storage functionalities of the Smart Rock.
+
+Please referance the correct PCB for your Smart Rock, board verions have changed as we have shipped.

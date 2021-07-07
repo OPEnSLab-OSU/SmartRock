@@ -12,7 +12,7 @@ For best results use the following Arduino library versions for all versions of 
 
 Board Package | Version
 ------ | ------
-Arduino SAMD | 1.8.13
+Arduino SAMD | 1.8.11
 Adafruit SAMD | 1.5.7
 Loom | 2.5
 
