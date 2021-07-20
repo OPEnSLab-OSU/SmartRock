@@ -120,18 +120,20 @@ void setup()
   Loom.print_config();
 
 
-  //change interval depending on the position of switchPin
-  //readOpInt() reads the specified file that is passed to it
-  //and sets the operation interval of the Smart Rock
+ //Got rid of the physical switch, so just have it read
+  //from the custom file
   switchPos = digitalRead(switchPin);
-  if (switchPos == HIGH) {
-    char* defaultOp = "operationInterval.txt";
-    readOpInt(defaultOp);
-    
-  }else{
-      char* customOp = "customOperationInterval.txt";
-      readOpInt(customOp);
-  }
+  char* customOp = "customOperationInterval.txt";
+  readOpInt(customOp);
+  
+//  if (switchPos == HIGH) {
+//    char* defaultOp = "operationInterval.txt";
+//    readOpInt(defaultOp);
+//    
+//  }else{
+//      char* customOp = "customOperationInterval.txt";
+//      readOpInt(customOp);
+//  }
   
   // Register an interrupt on the RTC alarm pin
   Loom.InterruptManager().register_ISR(12, wakeISR_RTC, LOW, ISR_Type::IMMEDIATE);
