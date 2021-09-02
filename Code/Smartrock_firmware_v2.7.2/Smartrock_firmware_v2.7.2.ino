@@ -97,6 +97,11 @@ void readOpInt(char* opInt){
 
   res = json["res"];
 
+  LPrintln(secs);
+  LPrintln(mins);
+  LPrintln(hours);
+  LPrintln(days);
+  LPrintln(res);
 }
 
 void setup() 
@@ -127,7 +132,7 @@ void setup()
  //Got rid of the physical switch, so just have it read
   //from the custom file
   switchPos = digitalRead(switchPin);
-  char* customOp = "customOperationInterval.txt";
+  char* customOp = "SD_config.txt";
   readOpInt(customOp);
   
 //  if (switchPos == HIGH) {
@@ -173,6 +178,7 @@ void loop()
   //send data to address of I2C
   send_data(0x2E, res); // set resistance in EC circuit
   Serial.print(res);
+  Serial.print("SDFSDFSLDKFJSLDKFJSLDKFJSLDKFJSD");
 
   //aim to 10000 for max EC value for solution then calibrate.
     
