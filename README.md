@@ -1,9 +1,9 @@
 # Smart Rock |<!-- [Updates](https://github.com/OPEnSLab-OSU/OPEnS-Lab-Home/wiki/smart-rock-updates) |--> [Wiki](https://github.com/OPEnSLab-OSU/SmartRock/wiki)
 Project Leads: **Colin Hale-Brown** and **Martin Escoto**
 
-Interest in the project? Email us at: halebroc@oregonstate.edu
+Interested in the project? Email us at: halebroc@oregonstate.edu
 
-**We are taking pre-orders for the V3 Smart Rock at the form [HERE](https://forms.gle/heTsUhmxyKFWzNU9A).**
+<!--**We are taking pre-orders for the V3 Smart Rock at the form [HERE](https://forms.gle/heTsUhmxyKFWzNU9A).**-->
 
 - [x] Latest hardware version: 3
 - [x] Latest stable software version: 2.5.1
