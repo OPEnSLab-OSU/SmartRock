@@ -94,7 +94,6 @@ void readOpInt(char* opInt){
   mins = json["minutes"];
   hours = json["hours"];
   days = json["days"];
-
   res = json["res"];
 
 }
@@ -142,11 +141,11 @@ void setup()
   // Register an interrupt on the RTC alarm pin
   Loom.InterruptManager().register_ISR(12, wakeISR_RTC, LOW, ISR_Type::IMMEDIATE);
 
+  LPrintln("Resolution: ", res);
+
   LPrintln("\n ** Setup Complete ** ");
   Serial.flush();
 }
-
-//byte res = 10; // EC Resolution anything larger than 0
 
 void loop() 
 {
@@ -172,7 +171,6 @@ void loop()
 
   //send data to address of I2C
   send_data(0x2E, res); // set resistance in EC circuit
-  Serial.print(res);
 
   //aim to 10000 for max EC value for solution then calibrate.
     
