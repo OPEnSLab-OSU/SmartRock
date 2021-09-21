@@ -123,7 +123,7 @@ void setup()
  //Got rid of the physical switch, so just have it read
   //from the custom file
   switchPos = digitalRead(switchPin);
-  char* customOp = "customOperationInterval.txt";
+  char* customOp = "SD_config.txt";
   readOpInt(customOp);
   
 //  if (switchPos == HIGH) {
