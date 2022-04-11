@@ -1,0 +1,33 @@
+"{\
+  'general':\
+  {\
+    'name':'Device',\
+    'instance':1\
+  },\
+  'components':[\
+    {\
+      'name':'ADS1115',\
+      'params':'default'\
+    },\
+    {\
+      'name':'SD',\
+      'params': [true,1000,10,'data',true]\
+    },\
+    {\
+      'name':'DS3231',\
+      'params':[10, true, true]\
+    },\
+    {\
+      'name':'InterruptManager',\
+      'params':'default'\
+    },\
+    {\
+      'name':'SleepManager',\
+      'params':[true,false,1]\
+    },\
+    {\
+      'name':'MS5803',\
+      'params':[119]\
+    }\
+  ]\
+}"
