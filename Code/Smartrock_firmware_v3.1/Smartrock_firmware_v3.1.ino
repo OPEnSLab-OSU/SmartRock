@@ -33,28 +33,9 @@ int mins = 20;
 int hours = 0;
 int days = 0;
 
-volatile bool rtc_flag = false;
-
-char serial_no[33];
-
-void readSerialNo() {
-  uint32_t sn_words[4];
-  sn_words[0] = *(volatile uint32_t *)(0x0080A00C);
-  sn_words[1] = *(volatile uint32_t *)(0x0080A040);
-  sn_words[2] = *(volatile uint32_t *)(0x0080A044);
-  sn_words[3] = *(volatile uint32_t *)(0x0080A048);
-
-  for (int i = 0; i < 4; i++) {
-    for (int j = 0; j < 4; j++) {
-      sprintf(serial_no + (i * 8) + (j * 2), "%02X", (uint8_t)(sn_words[i] >> ((3 - j) * 8)));
-    }
-  }
-}
-
 void wakeISR_RTC() {
   // disable the interrupt
   detachInterrupt(12);
-  rtc_flag = true;
 }
 
 //custom function to read specified operation interval file from SD
@@ -90,7 +71,7 @@ void writeSerialNo(){
   }
 
   file.print("Serial Number: ");
-  file.print(serial_no);
+  file.print(Feather.get_serial_no());
   file.print("\n");
   file.close();
 }
@@ -100,9 +81,7 @@ void setup()
   // Needs to be done for Hypno Board
   pinMode(5, OUTPUT);   // Enable control of 3.3V rail 
   pinMode(6, OUTPUT);   // Enable control of 5V rail 
-  pinMode(12, INPUT_PULLUP);    // Enable waiting for RTC interrupt, MUST use a pullup since signal is active low
 
-  //digitalWrite(switchPin, HIGH);
   //See Above
   digitalWrite(5, LOW); // Enable 3.3V rail
   digitalWrite(6, HIGH);  // Enable 5V rail
@@ -119,7 +98,6 @@ void setup()
   // Register an interrupt on the RTC alarm pin
   getInterruptManager(Feather).register_ISR(12, wakeISR_RTC, LOW, ISR_Type::IMMEDIATE);
 
-  readSerialNo();
   writeSerialNo();
 
   LPrintln("\n ** Setup Complete ** ");
@@ -127,24 +105,6 @@ void setup()
 
 void loop() 
 {
-  
-  digitalWrite(5, LOW); // Enable 3.3V rail
-  digitalWrite(6, HIGH);  // Enable 5V rail
-
-  // As it turns out, if the SD card is initialized and you change
-  // the states of the pins to ANY VALUE, the SD card will fail to
-  // write. As a result, we ensure that the board has been turned
-  // off at least once before we make any changes to the pin states
-  if (rtc_flag) {
-    pinMode(23, OUTPUT);
-    pinMode(24, OUTPUT);
-    pinMode(10, OUTPUT);
-
-    delay(1000);
-
-    Feather.power_up();
-  }
-
   Feather.measure();
   Feather.package();
   Feather.display_data();
@@ -156,17 +116,24 @@ void loop()
   getInterruptManager(Feather).RTC_alarm_duration(TimeSpan(days,hours,mins,secs));
   getInterruptManager(Feather).reconnect_interrupt(12);
 
-  Feather.power_down();
+  digitalWrite(5, HIGH); // Disable 3.3V rail
+  digitalWrite(6, LOW);  // Disable 5V rail
 
   // Disable SPI pins/SD chip select to save power
   pinMode(23, INPUT);
   pinMode(24, INPUT);
   pinMode(10, INPUT);
 
-  digitalWrite(5, HIGH); // Disable 3.3V rail
-  digitalWrite(6, LOW);  // Disable 5V rail
+  Feather.power_down();
+  getSleepManager(Feather).sleep(); // Sketch pauses here until RTC alarm
 
-  rtc_flag = false;
-  getSleepManager(Feather).sleep();
-  while (!rtc_flag);
+  digitalWrite(5, LOW); // Enable 3.3V rail
+  digitalWrite(6, HIGH);  // Enable 5V rail
+
+  pinMode(23, OUTPUT);
+  pinMode(24, OUTPUT);
+  pinMode(10, OUTPUT);
+
+  Feather.power_up();
+  delay(1000);
 }
