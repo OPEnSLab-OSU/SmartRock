@@ -23,6 +23,13 @@ const char* json_config =
 #include "config.h"
 ;
 
+// In Tools menu, set:
+// Internet  > None
+// Radios    > Disabled
+// Sensors   > Enabled
+// Actuators > Disabled
+// Max       > Disabled
+
 using namespace Loom;
 Loom::Manager Feather{};
 
