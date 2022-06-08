@@ -51,11 +51,14 @@ void readOpInt(char* opInt){
   file.open(opInt);
   if (file){
     LPrintln("File is good");
+  } else {
+    return;
   }
   DeserializationError error = deserializeJson(doc, file);
   
   if (error) { // Make sure json was valid
     LPrintln("deserializeJson() failed: ", error.c_str());
+    return;
   }
   
   serializeJsonPretty(doc, Serial);
