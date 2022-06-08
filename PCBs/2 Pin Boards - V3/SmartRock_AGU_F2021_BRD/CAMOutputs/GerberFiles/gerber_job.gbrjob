@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2022-02-19T19:05:42Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.5.1"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "SmartRock_EC_V3_2_0_AGU"
+        },
+        "Owner": "Cameron Whitlow <whitloca@oregonstate.edu>",
+        "Size": {
+            "X": 80.05,
+            "Y": 34.57
+        }
+    }
+}
