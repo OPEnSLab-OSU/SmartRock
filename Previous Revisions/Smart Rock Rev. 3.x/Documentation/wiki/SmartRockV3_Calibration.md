@@ -1,0 +1,3 @@
+# Smart Rock V3 Calibration
+
+To calibrate the Smart Rock V3 and its revisions please use the CUAHSI 2021 Materials. The calibration guide can be found [here](https://github.com/OPEnSLab-OSU/SmartRock/blob/master/Workshop%20Materials/CUAHSI%202021/SmartRock_AssemblyGuide_CUAHSI_2021.pdf) and the spreadsheet templates you will need can be found in the CUAHSI 2021 workshop materials [here](https://github.com/OPEnSLab-OSU/SmartRock/tree/master/Workshop%20Materials/CUAHSI%202021).

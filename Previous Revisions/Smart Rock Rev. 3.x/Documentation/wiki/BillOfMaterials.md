@@ -1,3 +1,5 @@
+# Bill Of Materials
+
 This is the complete bill of materials for the different kit types. For info about the materials and assembly of "in house" parts please visit their corresponding wiki pages.
 
 Kits | Type
