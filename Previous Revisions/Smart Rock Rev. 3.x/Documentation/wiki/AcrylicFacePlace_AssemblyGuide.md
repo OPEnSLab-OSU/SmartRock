@@ -1,3 +1,5 @@
+# Acrylic Faceplate Assembly Guide
+
 The Acrylic face plate houses both the OsmoPod and the Turbidity sensor for the Smart Rock.
 
 **Materials**
