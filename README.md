@@ -3,7 +3,7 @@ Project Leads: **Chris Milford**, **Colin Hale-Brown**
 
 <!--Past Team Members **Annika Sundstorm** -->
 
-Interested in the project? Email us at: milfordc@oregonstate.edu
+Interested in the project? Email us at: milfordc@oregonstate.edu, truonbry@oregonstate.edu
 
 <!--**We are taking pre-orders for the V3 Smart Rock at the form [HERE](https://forms.gle/heTsUhmxyKFWzNU9A).**-->
 
