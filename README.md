@@ -1,7 +1,9 @@
 # Smart Rock |<!-- [Updates](https://github.com/OPEnSLab-OSU/OPEnS-Lab-Home/wiki/smart-rock-updates) |--> [Wiki](https://github.com/OPEnSLab-OSU/SmartRock/wiki)
-Project Leads: **Chris Milford**, **Colin Hale-Brown**
+Project Leads: **Chris Milford**
 
-<!--Past Team Members **Annika Sundstorm** -->
+Project Members; **Bryce Truong**
+
+<!--Past Team Members **Annika Sundstorm** **Colin Hale-Brown**-->
 
 Interested in the project? Email us at: milfordc@oregonstate.edu, truonbry@oregonstate.edu
 
