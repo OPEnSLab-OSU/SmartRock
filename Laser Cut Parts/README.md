@@ -1,6 +1,6 @@
 ## Laser Cut Parts
 
-For the construction of one Smart Rock you need one of each of these parts. They are laser cut from extruded acrylic sheets.
+For the construction of one Smart Rock you need one of each of these parts. They are laser cut from extruded or cast acrylic sheets.
 
 Part | Material Thickness 
 ------ | ------
