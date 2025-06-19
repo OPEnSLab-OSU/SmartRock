@@ -36,18 +36,18 @@ void error(const __FlashStringHelper*err) {
 Adafruit_VCNL4010 vcnl; // We use the VCNL4010, not the 4020
 Manager manager("Device", 1);
 
-const int BAUD_RATE = 9600;
+// const int BAUD_RATE = 9600;
 
 void setup(void)
 {
-  Serial.begin(BAUD_RATE); 
+  Serial.begin(9600); 
   Wire.begin(); // Intialize I2C
 
   /* ============================== 
   Initialze Loom Setup 
   ============================== */
   manager.initialize();
-  manager.beginSerial(BAUD_RATE);
+  manager.beginSerial(9600);
   delay(500);
 
   /* ============================== 
@@ -56,7 +56,6 @@ void setup(void)
   vcnl.begin();
   if (vcnl.begin() == false) { 
     Serial.println("Couldn't find VCNL4010 sensor!");
-    while(1);
   }
   
   /* ============================== 
