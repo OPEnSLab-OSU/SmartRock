@@ -53,7 +53,7 @@ void setup() {
   manager.initialize();
 
     // Gets sleep interval from SD card
-  sleepInterval = hypnos.getSleepIntervalFromSD("SD_config.json");
+  sleepInterval = hypnos.getConfigFromSD("SD_config.json");
     // Register the ISR and attach to the interrupt
   hypnos.registerInterrupt(isrTrigger);
 
@@ -75,13 +75,13 @@ void loop() {
 
     // Experimentally determined EC and Turbidity calibration coefficients
     // These are different for each Smart Rock, insert the proper values from calibration
-  float EC_slope = 0.0;      // EC calibration slope 
-  float EC_intercept = 0.0;  // EC calibration y-intercept 
-  float Turbidity_slope = 0.0;      // Turbidity calibration slope
-  float Turbidity_intercept = 0.0;  // Turbidity calibration y-intercept
+  float EC_slope = 0.00;      // EC calibration slope 
+  float EC_intercept = 0.00;  // EC calibration y-intercept 
+  float Turbidity_slope = 0.1574;      // Turbidity calibration slope
+  float Turbidity_intercept = -496.06 - 40;  // Turbidity calibration y-intercept
   
     // Troubleshooting mode enables extra status prints in the serial Monitor
-  bool troubleshooting_mode = 1; //
+  bool troubleshooting_mode = 1; // 1 == on, 0 == off
 //============================================================
 
 // This is the wakeup cycle, everything outside of this scope happens while the device is "asleep"
@@ -147,10 +147,10 @@ void take_data(float ECm, float ECb, float Tm, float Tb, bool troubleshooting_mo
     // Adds data under "Sensor Values" to the JSON packet
   manager.addData("MS5803", "Pressure", ms.getPressure());          // MS5803 Pressure
   manager.addData("MS5803", "Temperature", ms.getTemperature());    // MS5803 Temperature
-  manager.addData("Analog Values","Conductivity", EC);              // Calibrated EC in uS/cm
   manager.addData("vcnl4010","Ambient Light", vcnl.readAmbient());  // VCNL4010 Light
   manager.addData("vcnl4010","Proximity", vcnl.readProximity());    // VCNL4010 Proximity
-  manager.addData("Analog Values", "Battery Voltage", analog.getBatteryVoltage());  // Battery Voltage
+  manager.addData("Analog Values","Conductivity", EC);              // Calibrated EC in uS/cm
+  manager.addData("Analog Values","Turbidity", Turb);              //Calibrated Turbidity
 
     // Troubleshooting print 5
   if(troubleshooting_mode==1){Serial.println("Data Added to Packet");}
