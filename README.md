@@ -1,7 +1,7 @@
 # Smart Rock |<!-- [Updates](https://github.com/OPEnSLab-OSU/OPEnS-Lab-Home/wiki/smart-rock-updates) |--> [Wiki](https://github.com/OPEnSLab-OSU/SmartRock/wiki)
 Project Leads: **Chris Milford**
 
-Project Members; **Bryce Truong**
+Project Members; **Bryce Truong** **Tyler Slaught** **Max Emrich**
 
 <!--Past Team Members **Annika Sundstorm** **Colin Hale-Brown**-->
 
