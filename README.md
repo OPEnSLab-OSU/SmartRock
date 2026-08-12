@@ -13,3 +13,5 @@ suite. The intended result of this work allows data to be collected throughout a
 and/or harsh conditions to improve system wide watershed knowledge.
 Smart Rock could be used as a learning tool for students, teachers, and other citizen scientists. The
 device currently costs ˜$350 in materials and takes approximately 4-8 hours to assemble and program.
+
+Comprehensive Build Guide -> https://github.com/OPEnSLab-OSU/SmartRock/blob/master/Documentation/SmartRock_Guide-compressed.pdf
