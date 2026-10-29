@@ -7,7 +7,7 @@ Project Members; **Chris Milford**, **Owen Schwab**, **Max Emrich**
 
 Interested in the project? Email us at: slaghtt@oregonstate.edu
 
-Smart rock aims to be a low cost, high accuracy, easy to use in-situ water quality measuring device. Our
+Smart Rock aims to be a low cost, high accuracy, easy to use in-situ water quality measuring device. Our
 goal with Smart Rock is to create an open source, low cost, and technically accessible hydrological sensor
 suite. The intended result of this work allows data to be collected throughout a watershed; even in varied
 and/or harsh conditions to improve system wide watershed knowledge.
