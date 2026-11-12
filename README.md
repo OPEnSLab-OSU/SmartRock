@@ -22,4 +22,4 @@ device currently costs ˜$350 in materials and takes approximately 4-8 hours to 
 
 Comprehensive Build/ Use Guide -> In Progress
 
-Smart Rock Paper -> https://github.com/OPEnSLab-OSU/SmartRock/blob/master/Documentation/SmartRock_Paper.pdf
+Smart Rock Paper -> In Progress
